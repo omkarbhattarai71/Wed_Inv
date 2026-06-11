@@ -28,17 +28,17 @@ function InvitationCard({ guestInfo, onEdit }) {
             <div className="header-content">
               <p className="header-subtitle">Together with our parents</p>
               <p className="header-text">Request the honor of your presence</p>
-              <p className="header-text">at the marriage of</p>
+              <p className="header-text">at the marriage celebration</p>
             </div>
           </div>
 
           {/* Main Content */}
           <div className="card-content">
-            {/* Guest Name Section */}
+            {/* Guest Name Section - AT TOP */}
             <div className="guest-section">
               <p className="guest-label">Dear</p>
-              <h1 className="guest-name gradient-text">{guestInfo.name}</h1>
-              <p className="guest-relation">({guestInfo.relation})</p>
+              <h1 className="guest-name gradient-text">{guestInfo.name} <p className="guest-relation">({guestInfo.relation})</p></h1>
+              <p className="guest-message">We are thrilled to invite you to share in the wedding celebration <br /> OF </p>
               <div className="section-divider"></div>
             </div>
 
@@ -98,7 +98,7 @@ function InvitationCard({ guestInfo, onEdit }) {
               <p className="venue-region">{COUPLE_INFO.kommune}</p>
             </div>
 
-            {/* Message Section */}
+            {/* Message Section - AT END */}
             <div className="message-section">
               <p className="message-main">Join us as we celebrate our love and commitment to each other</p>
               <p className="message-emphasis">We would be honored by your presence</p>
