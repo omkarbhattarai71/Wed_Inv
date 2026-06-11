@@ -16,7 +16,7 @@ function InvitationCard({ guestInfo, onEdit }) {
       <div className="invitation-wrapper animate-fade-in">
         {/* Invitation Card */}
         <div className="invitation-card card">
-          {/* Header Section with Gradient */}
+          {/* Header Section with Couple Photo */}
           <div className="card-header">
             <div className="header-decorations">
               <div className="decoration-star top-left">✦</div>
@@ -24,6 +24,7 @@ function InvitationCard({ guestInfo, onEdit }) {
               <div className="decoration-star bottom-left">✦</div>
               <div className="decoration-star bottom-right">✦</div>
             </div>
+
 
             <div className="header-content">
               <p className="header-subtitle">Together with our parents</p>
@@ -66,6 +67,18 @@ function InvitationCard({ guestInfo, onEdit }) {
               </div>
             </div>
 
+            {/* Decorative Divider */}
+            <div className="ornamental-divider">
+              <div className="divider-line"></div>
+              <span className="divider-icon">✦</span>
+              <div className="divider-line"></div>
+            </div>
+
+            {/* Couple Photo */}
+            <div className="couple-photo-container">
+              <p className="photo-caption">The Groom and the Bride</p>
+              <img src="/us.jpg" alt="Couple Photo" className="couple-photo" onError={(e) => e.target.src = '/us.jpeg'} />
+            </div>
             {/* Decorative Divider */}
             <div className="ornamental-divider">
               <div className="divider-line"></div>
