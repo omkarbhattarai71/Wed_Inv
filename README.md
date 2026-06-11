@@ -225,3 +225,5 @@ Designed and built with ❤️ for Omkar & Samiksha's wedding celebration.
 **Made with React + Vite + Tailwind CSS**
 
 For questions or support, please contact the development team.
+# Wed_Inv
+Invitation
