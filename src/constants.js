@@ -32,8 +32,8 @@ export const COUPLE_INFO = {
     mother: 'Sita Devi Karki',
     father: 'Ram Bahadur Karki'
   },
-  venue: 'Farum, Denmark',
-  kommune: 'Fureso Kommune',
+  venue: 'Værløse, Denmark',
+  kommune: 'Furesø Kommune',
   date: '19th June, Friday, 2026',
   time: '10:00 AM'
 };
